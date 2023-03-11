@@ -1,3 +1,4 @@
 import SwrConfig from "./SwrConfig";
+import ErrorBoundaryContext from "./ErrorBoundaryContext";
 
-export { SwrConfig };
+export { SwrConfig, ErrorBoundaryContext };
