@@ -5,7 +5,9 @@ type Props = {
 };
 
 const ErrorBoundaryContext = ({ children }: Props) => {
-  return <ErrorBoundary fallback={<ErrorComponent />}>{children}</ErrorBoundary>;
+  return (
+    <ErrorBoundary fallback={<ErrorComponent />}>{children}</ErrorBoundary>
+  );
 };
 
 export default ErrorBoundaryContext;
