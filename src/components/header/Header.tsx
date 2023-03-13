@@ -3,7 +3,7 @@ import Logo from "public/logo.svg";
 
 const Header = () => {
   return (
-    <header className="container flex justify-between pt-2">
+    <header className="container sticky top-0 flex justify-between pt-2">
       <Link href="/" className="flex items-center">
         <Logo alt="logo" className="w-8 sm:w-12" />
         <span className="font-bold">All-One</span>
